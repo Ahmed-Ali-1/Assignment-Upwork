@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    margin: auto;
+    max-width: 1600px !important;
+
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+    color: #000;
+}
+
+.upwork-logo {
+    width: 82px;
+    height: 32px;
+}
+
+.navbar-brand {
+
+    width: 107px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.nav-height {
+    background-color: #fff !important;
+    border-bottom: 1px solid #dfe3eb;
+    height: 64px !important;
+    padding: 0px !important;
+
+}
+
+.nav-link {
+    font-size: 13px !important;
+    color: #181818 !important;
+    padding: 10px 3px 10px 10px !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    letter-spacing: 0px !important;
+}
+
+.nav-item {
+    padding-right: 10px !important;
+}
+
+.btn {
+    padding: 0px 24px !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px !important;
+}
+
+.btn-outline-success {
+    border-radius: 10px !important;
+    background-color: #108a00 !important;
+    color: #fff !important;
+}
+
+.px-4 {
+    margin: 12px;
+}
+
+.banner {
+    margin-top: 120px;
+}
+
+.banner-img>img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    border-radius: 20px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.text-area {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+}
+
+.image-text>h1 {
+    text-align: left;
+    color: #fff;
+    letter-spacing: -2px;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 90px 0 40px;
+    line-height: 50px;
+}
+
+.search-box {
+    background-color: rgb(67, 64, 70);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.one-button {
+    background-color: grey;
+    border-radius: 30px;
+    border: 1px solid #afafaf;
+}
+
+.find {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.find>li {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding: 6px;
+}
+
+.find>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.option::before{
+    content: "";
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    align-items: center;
+    /* border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 6px; */
+}
+
+.para {
+    margin-top: 16px;
+}
+
+.para>P {
+    text-align: center;
+    color: #fff;
+}
+
+.hover-btn{  
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.hover-btn>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.hover-btn>li{
+    border-radius: 30px;
+    border: 1px solid #fff;
+    padding: 6px ;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 2px;
+    width: 100%;
+}
+
+.hover-btn>li:hover{
+    border: 1px solid rgb(199, 240, 18);
+    box-shadow: 0px 0px 16px 1px  rgb(199, 240, 18);
+    transition: all 1s;
+}
+.brand-logo{
+    margin-top:20px;
+    
+}
+.logos{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.logos>li{
+    list-style: none;
+}
