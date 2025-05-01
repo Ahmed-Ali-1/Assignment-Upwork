@@ -75,7 +75,23 @@
     margin: 12px;
 }
 
+@media screen and (max-width:1000px) {
+
+    .btn {
+        display: none !important;
+    }
+
+    .nav-link {
+        padding: 0px !important;
+        margin: 20px 0;
+    }
+}
+
 /* Banner-Section*/
+
+.banner-section {
+    margin-bottom: 80px;
+}
 
 .banner-image {
     margin-top: 90px;
@@ -224,13 +240,41 @@
 
 /* Animation-Section*/
 
-.animation-wraper{
-    display: flex;
-    gap: 30px;
-    margin: 80px 0;
+.animation-section {
+    margin-bottom: 64px;
 }
 
-.h4-display-large{
+.animation-image>img {
+    width: 100%;
+    height:380px;
+}
+
+.left-text-section {
+    width: 100%;
+    /* display: grid; */
+}
+
+@media screen and (max-width:760px) {
+    .left-text-section {
+        margin-top: 10px;
+    }
+
+    .h4-display-large {
+        font-size: 32px !important;
+        letter-spacing: -2px !important;
+    }
+
+    .primary {
+        display: none;
+    }
+
+    .how-to-hire-buttons {
+        text-align: center;
+    }
+}
+
+
+.h4-display-large {
     font-size: 48px;
     font-family: "Montserrat", sans-serif;
     letter-spacing: -4px;
@@ -238,32 +282,47 @@
     color: #181818;
     font-weight: 500;
 }
-.left-icon-text{
-    margin-bottom: 24px;
+@media screen and (max-width:1200px){
+    .h4-display-large{
+        font-size: 40px !important;
+    }
+}
+@media screen and (max-width:1000px){
+    .h4-display-large{
+        font-size: 32px !important;
+        letter-spacing: -3px !important;
+    }
+}
+.left-icon-text {
+    margin-bottom: 16px;
 }
 
-.edit-icon-right{
+.edit-icon-right {
     margin-right: 20px;
 }
-.edit-icon-right>i{
-font-size: 22px;
-color: rgb(162 162 162);
+
+.edit-icon-right>i {
+    font-size: 22px;
+    color: rgb(162 162 162);
 }
-.text-data>h5{
+
+.text-data>h5 {
     margin: 0;
     color: #181818;
 }
-.text-data>p{
+
+.text-data>p {
     color: #181818;
     margin-top: 2px;
     margin-bottom: 0;
 }
 
 
-.how-to-hire-buttons{
+.how-to-hire-buttons {
     margin-top: 36px !important;
 }
-.how-to-hire-buttons .primary{
+
+.how-to-hire-buttons .primary {
     margin-right: 16px;
     background-color: #108a00;
     color: #fff;
@@ -271,37 +330,46 @@ color: rgb(162 162 162);
     border-radius: 10px;
     padding: 10px 24px;
     font-family: "Montserrat", sans-serif;
-    border:2px solid #108a00;
+    border: 2px solid #108a00;
     font-weight: 500;
 }
 
-.how-to-hire-buttons .secondery{
-    border:2px solid #108a00;
+.how-to-hire-buttons .secondery {
+    border: 2px solid #108a00;
     text-decoration: none;
     color: #108a00;
     border-radius: 10px;
     padding: 10px 24px;
 }
 
-.how-to-hire-buttons .primary:hover{
-    background-color:#15a502;
+.how-to-hire-buttons .primary:hover {
+    background-color: #15a502;
     border-color: #15a502;
 }
-.how-to-hire-buttons .secondery:hover{
+
+.how-to-hire-buttons .secondery:hover {
     color: #15a502;
     border-color: #15a502;
 }
 
 /* Browse Section*/
+.Browse-section {
+    margin-bottom: 80px;
+}
 
-.browse-heading>h4{
+.browse-wraper {
+    padding-bottom: 48px;
+}
+
+.browse-heading>h4 {
     margin-bottom: 12px !important;
     font-size: 40px;
     font-weight: 500;
     letter-spacing: -1px;
     font-family: "Montserrat", sans-serif;
 }
-.browse-job-label{
+
+.browse-job-label {
     margin-bottom: 32px;
     font-size: 20px;
     color: #676767;
@@ -309,12 +377,12 @@ color: rgb(162 162 162);
     letter-spacing: -1px;
     font-weight: 500;
 }
-.browse-job-label>a{
+
+.browse-job-label>a {
     color: #15a502;
 }
 
-
-.rating-heading{
+.rating-heading {
     font-size: 24px;
     color: #181818;
     font-family: "Montserrat", sans-serif;
@@ -322,27 +390,74 @@ color: rgb(162 162 162);
     letter-spacing: -1px;
     margin-bottom: 10px !important;
 }
-.rating{
+
+.rating {
     padding-top: 12px !important;
 }
-.rating span{
+
+.rating span {
     padding-top: 2px !important;
     margin-right: 40px;
     color: #181818;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
-.rating>i{
+
+.rating>i {
     color: #15a502;
 }
-.rating-box{
 
+.rating-box {
     padding: 20px 20px 52px !important;
 }
-.browse-box{
+
+.browse-box {
     background-color: #f9f9f9 !important;
     border-radius: 8px;
 }
-.browse-box:hover{
+
+.browse-box:hover {
     background-color: #e8e8e8 !important;
 }
+
+/*Enterprice-Section*/
+
+/* .enterprice-banner {
+    background-color: rgb(6, 97, 73);
+    width: 100%;
+    margin: 48px 0;
+}
+
+.text-inverse {
+    padding: 35px;
+}
+.enterprice-heading{
+    margin-bottom:  35px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+.this-is-how{
+    font-size: 56px;
+    margin-bottom: 20px !important;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+    line-height: 60px;
+    word-spacing: -2px;
+}
+.bg-mint{
+    color: mediumspringgreen;
+}
+
+
+
+
+.weel-image{
+}
+.weel-image>img{
+    width: 100%;
+    height: 100%;
+
+} */
