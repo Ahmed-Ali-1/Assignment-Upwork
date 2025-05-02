@@ -9,6 +9,7 @@
 .nav-container {
     margin: auto;
     max-width: 1600px !important;
+    padding: 0 24px !important;
 }
 
 .fa-chevron-down {
@@ -127,6 +128,17 @@
         font-size: 40px;
         line-height: 40px;
     }
+}
+@media screen and (max-width:500px) {
+    .hide{
+        display: none !important;
+    }
+}
+@media screen and (max-width:900px) {
+    .animation-section{
+        margin-top: 150px;
+    }
+    
 }
 
 .main-box {
@@ -262,7 +274,6 @@
 
 .left-text-section {
     width: 100%;
-    /* display: grid; */
 }
 
 @media screen and (max-width:760px) {
